@@ -7,7 +7,7 @@ pessoal = []
 
 
 while True:
-    new = input('Deseja acrescentar um novo ausário?')
+    new = input('Deseja acrescentar um novo usuário?')
     if new == 'não':
         print('Final')
         break
