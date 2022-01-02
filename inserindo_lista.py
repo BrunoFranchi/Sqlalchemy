@@ -2,9 +2,7 @@ from testando import engine, tabela_pessoa
 
 connect = engine.connect()
 insert = tabela_pessoa.insert()
-
 pessoal = []
-
 
 while True:
     new = input('Deseja acrescentar um novo usuário?')
